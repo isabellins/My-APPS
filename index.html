@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Exemplo de Bootstrap </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <section>
+        <h2>
+         APPS
+        </h2>
+
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/hTltMD20A4Nj5fVwlZ5yIyADj6RwTdEctIKg8EhBmFk/embed?nosource"></iframe>
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/NJeab_rrl9u5SWz0Ve9xYJlasRn0Fu1CoiKzXnx2Rbg/embed?nosource"></iframe>
+    </section>
+
+
+
+<h2> Clique no jogo desejado para comecar! </h2>
+
+<h5> Esses jogos foram criados no laboratorio de jogos. Clique no jogo para jogar </h5>
+
+<div id="myCarrossel" class="carousel slide" >
+  <center>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="https://studio.code.org/projects/gamelab/qMgWfeVj8l_UusExs5VvV9J5_FnS25aDs6HxmusGJhY" target="_blank"> 
+            <img src="jogo1.png" />
+        </a>
+
+        <p> Tente fujir dos astronautas!</p>
+      </div>
+
+      <div class="item">
+        <a href="https://studio.code.org/projects/gamelab/etVxXLCJWYKNiX9PU-7k_EruBd_9znBd_yBaiN-FRQs" target="_blank"> 
+            <img src="jogo2.png" />
+        </a>
+          <p> Aperte o espaço e diminua o numero! </p>
+        </div>
+
+        <div class="item">
+            <a href="https://studio.code.org/projects/gamelab/ndpmKlzrtWDIPiH558T6i6fBVeDYgdNHaozEFSWo90M" target="_blank"> 
+                <img src="jogo3.png" />
+            </a>
+              <p> Corte as frutas </p>
+        </div>
+
+        <div class="item">
+            <a href="https://studio.code.org/projects/gamelab/_M71RoO8tPm0w9cwFqnrDo8xm1mzIB7TgnVNM71Z_8U" target="_blank"> 
+                <img src="jogo4.png" />
+            </a>
+              <p> Desvie dos carros! </p>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarrossel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarrossel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+  </center>
+  </div>
+
+</div>
+<df-messenger
+        intent="WELCOME"
+         chat-title="Cecilia"
+        agent-id="ee2c6420-639d-4af4-889b-13b6125daffe"
+        language-code="en"
+        ></df-messenger>
+</body>
+</html>
